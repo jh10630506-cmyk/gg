@@ -1,0 +1,15 @@
+{
+    "name": "AI-Agent-Game-Lab",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "dracula-theme.theme-dracula" 
+            ]
+        }
+    },
+    "postCreateCommand": "pip install streamlit google-generativeai paho-mqtt && echo '✅ 所有套件已安裝完成，準備開始開發！'"
+}
